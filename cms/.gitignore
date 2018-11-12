@@ -14,7 +14,6 @@
 # Ignore Drupal's file directories
 /web/sites/*/files/
 /files/*/*
-!/files/keys/.gitkeep
 !/files/private/.gitkeep
 !/files/tmp/.gitkeep
 
