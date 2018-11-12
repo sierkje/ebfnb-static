@@ -1,16 +1,21 @@
 {
-  "name": "contentacms/contenta-jsonapi-project",
-  "description": "Project template for Contenta CMS.",
+  "name": "ebfnb/ebfnb-static-cms",
+  "description": "Drupal CMS for the EBFNB static site.",
   "type": "project",
-  "license": "GPL-2.0-or-later",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/ebfnb/ebfnb-static/tree/master/cms#readme",
   "authors": [
     {
-      "name": "Mateu Aguiló Bosch",
-      "email": "mateu.aguilo.bosch@gmail.com"
+      "name": "Sierk",
+      "homepage": "https://github.com/sierkje"
     },
     {
-      "name": "Daniel Wehner",
-      "email": "dawehner@users.noreply.github.com"
+      "name": "Dmitry",
+      "homepage": "https://github.com/skihappy"
+    },
+    {
+      "name": "East Bay Food Not Bombs contributors",
+      "homepage": "https://ebfnb.org"
     }
   ],
   "repositories": [
@@ -19,19 +24,10 @@
       "url": "https://packages.drupal.org/8"
     }
   ],
-  "require": {
-    "contentacms/contenta_jsonapi": "dev-8.x-2.x",
-    "drupal-composer/drupal-scaffold": "^2.5",
-    "cweagans/composer-patches": "^1.6",
-    "vlucas/phpdotenv": "^2.4",
-    "drush/drush": "^9.0.0",
-    "composer/installers": "^1.2",
-    "webflo/drupal-finder": "^1.0.0",
-    "webmozart/path-util": "^2.3"
-  },
-  "require-dev": {
-    "webflo/drupal-core-require-dev": "^8.6.0",
-    "vijaycs85/drupal-quality-checker": "^1.0"
+  "config": {
+    "preferred-install": {
+      "*": "auto"
+    }
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
@@ -75,9 +71,18 @@
     "enable-patching": true,
     "patches": {}
   },
-  "config": {
-    "preferred-install": {
-      "*": "auto"
-    }
+  "require-dev": {
+    "webflo/drupal-core-require-dev": "^8.6.0",
+    "vijaycs85/drupal-quality-checker": "^1.0"
+  },
+  "require": {
+    "contentacms/contenta_jsonapi": "dev-8.x-2.x",
+    "drupal-composer/drupal-scaffold": "^2.5",
+    "cweagans/composer-patches": "^1.6",
+    "vlucas/phpdotenv": "^2.4",
+    "drush/drush": "^9.0.0",
+    "composer/installers": "^1.2",
+    "webflo/drupal-finder": "^1.0.0",
+    "webmozart/path-util": "^2.3"
   }
 }
