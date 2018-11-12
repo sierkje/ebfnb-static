@@ -62,3 +62,7 @@ typings/
 
 # temporary development assets
 /.tmp/
+
+# IDE / editor files.
+.idea/
+.vscode/
