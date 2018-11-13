@@ -1,0 +1,15 @@
+uuid: 93f9f1ea-2d8f-46ae-9145-9e7d537c7cb3
+name: 'East Bay Food Not Bombs | EBFNB.org'
+mail: sierk.beij+site.ebfnb.m8@gmail.cpm
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+mail_notification: ''

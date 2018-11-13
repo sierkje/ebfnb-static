@@ -1,0 +1,31 @@
+uuid: c2ec761d-aa32-4199-99f8-344599f68236
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access comments'
+  - 'access content'
+  - 'access jsonapi resource list'
+  - 'access site-wide contact form'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'edit own article content'
+  - 'edit own audio media'
+  - 'edit own file media'
+  - 'edit own image media'
+  - 'edit own page content'
+  - 'edit own remote_video media'
+  - 'edit own video media'
+  - 'post comments'
+  - 'search content'
+  - 'update media'
+  - 'use text format restricted_html'
+  - 'view media'
+  - 'view own unpublished content'

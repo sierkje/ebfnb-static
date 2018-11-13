@@ -1,0 +1,43 @@
+uuid: 2192d504-a7c3-4ecb-966b-b8ec672939dd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Om6FEO7vZZMkPIbVvfxtdkWerQ2PvQM4sWUd6Q3ZnfI
+id: administrator
+label: 'Site admin'
+weight: 2
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access media overview'
+  - 'access site in maintenance mode'
+  - 'access taxonomy overview'
+  - 'access user profiles'
+  - 'create article content'
+  - 'create file media'
+  - 'create image media'
+  - 'create page content'
+  - 'create remote_video media'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'edit any article content'
+  - 'edit any file media'
+  - 'edit any image media'
+  - 'edit any page content'
+  - 'edit any remote_video media'
+  - 'edit own article content'
+  - 'edit own comments'
+  - 'edit own page content'
+  - 'edit terms in tags'
+  - 'revert all revisions'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view article revisions'
+  - 'view page revisions'

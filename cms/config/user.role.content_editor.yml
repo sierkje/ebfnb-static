@@ -1,0 +1,40 @@
+uuid: 249e58da-bcb6-440b-a425-e02db6f84d3e
+langcode: en
+status: true
+dependencies: {  }
+id: content_editor
+label: 'Content editor'
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access media overview'
+  - 'access taxonomy overview'
+  - 'access user profiles'
+  - 'create article content'
+  - 'create file media'
+  - 'create image media'
+  - 'create page content'
+  - 'create remote_video media'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'edit any article content'
+  - 'edit any file media'
+  - 'edit any image media'
+  - 'edit any page content'
+  - 'edit any remote_video media'
+  - 'edit own article content'
+  - 'edit own comments'
+  - 'edit own page content'
+  - 'edit terms in tags'
+  - 'revert all revisions'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view article revisions'
+  - 'view page revisions'
