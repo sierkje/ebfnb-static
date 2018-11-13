@@ -1,0 +1,10 @@
+name: Mutual8
+type: profile
+description: 'Build the Drupal CMS for Mutual8 apps.'
+version: VERSION
+package: Mutual8
+core: 8.x
+install:
+  - mutual8_core
+themes:
+  - seven

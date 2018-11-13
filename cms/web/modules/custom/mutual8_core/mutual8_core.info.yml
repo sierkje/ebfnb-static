@@ -1,0 +1,10 @@
+name: Mutual8 Core
+type: module
+description: 'Provides shared config and code for Mutual8 sites.'
+version: VERSION
+package: Mutual8
+required: true
+core: 8.x
+dependencies:
+  - drupal:field
+  - drupal:user
