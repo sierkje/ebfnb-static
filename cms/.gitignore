@@ -12,10 +12,12 @@
 /web/sites/*/settings.local.php
 
 # Ignore Drupal's file directories
-/web/sites/*/files/
 /files/*/*
 !/files/private/.gitkeep
 !/files/tmp/.gitkeep
+/web/files/*
+!/web/files/.gitkeep
+/web/sites/*/files/
 
 # Ignore SimpleTest multi-site environment.
 /web/sites/simpletest
