@@ -1,8 +1,17 @@
+const config = require('../m8config')
+
 module.exports = {
   siteMetadata: {
     title: 'East Bay Food Not Bombs',
   },
   plugins: [
+    {
+      resolve: `gatsby-source-drupal`,
+      options: {
+        baseUrl: config.cms.url,
+        apiBase: config.cms.paths.api,
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,

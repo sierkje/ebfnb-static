@@ -66,3 +66,7 @@ typings/
 # IDE / editor files.
 .idea/
 .vscode/
+
+# Config files.
+/m8config.js
+
