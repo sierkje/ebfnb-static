@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "private": true,
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "serve": "node ./lib",
+    "dev": "npm run build && npm run serve",
+    "start": "npm run build && npm run serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.2.5",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6"
+  }
+}
